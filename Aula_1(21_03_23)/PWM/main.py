@@ -15,7 +15,7 @@ No arduino:
 pinMode(led_pin, OUTPUT);
 
 '''
-pwm_pin = Pin(26, Pin.OUT)
+pwm_pin = Pin(13, Pin.OUT)
 
 #dutycicle = 512*
 led = PWM(pwm_pin, freq = 5, duty = 512)
