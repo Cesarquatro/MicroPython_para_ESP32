@@ -27,3 +27,7 @@ while True:
     humidity = dht_sensor.humidity()       #Armazena a medida da umidade na variavel
     print(f"Temp: {temperature}ºC\tHum: {humidity}%") #print os valores
     time.sleep(2) #espera 2[s]
+    
+    '''
+    Teste de Pull request do Deus Caio Maciel
+    '''
